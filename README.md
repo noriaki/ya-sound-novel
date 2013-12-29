@@ -7,14 +7,13 @@ Sound-novelize Web page bookmarklet.
 
 下記をブラウザのブックマークに登録してください。
 
-title:
-  YA Sound-novel化
-URL:
-  ```
-  javascript:(function()%7B(function(d)%7Bvar s%3Dd.createElement(%27script%27)%3Bs.src%3D%27https://raw.github.com/noriaki/ya-sound-novel/0.0.1/init.js%27%3Bd.getElementsByTagName(%27head%27)%5B0%5D.appendChild(s)%3B%7D)(document)%3B%7D)()%3B
-  ```
+#### TITLE
+YA Sound-novel化
 
-GitHubのJavascriptファイルを読み込んでいますが、Tagでバージョン管理されているのでブックマークレットに更新があった場合には上記ブックマークURLも変更してください。
+#### URL
+```javascript:(function()%7B(function(d)%7Bvar s%3Dd.createElement(%27script%27)%3Bs.src%3D%27https://raw.github.com/noriaki/ya-sound-novel/0.0.1/init.js%27%3Bd.getElementsByTagName(%27head%27)%5B0%5D.appendChild(s)%3B%7D)(document)%3B%7D)()%3B```
+
+GitHubのJavascriptファイルを読み込んでいますが、Tagでバージョン管理されているの でブックマークレットに更新があった場合には上記ブックマークURLも変更してください 。
 
 ※登録方法はご使用ブラウザのヘルプ等をご確認ください
 
@@ -22,7 +21,7 @@ GitHubのJavascriptファイルを読み込んでいますが、Tagでバージ�
 
 たとえば、[このページ](http://newclassic.jp/archives/4200 "TwitterとSquareの創業者、ジャック・ドーシーとは誰か？ | THE NEW CLASSIC")などでブックマークレットを実行してください。
 
-Webページの本文が一文ずつ表示されるので、クリック（タップ）すると次の文に進みます。
+Webページの本文が一文ずつ表示されるので、クリック（タップ）すると次の文に進みま す。
 
 ### TODO
 
@@ -31,4 +30,3 @@ Webページの本文が一文ずつ表示されるので、クリック（タ�
 - [ ] 直接文章Noを入力して移動する機能
 - [ ] 読んでいる途中の文章Noを記録して途中から読み直せる機能
 - [ ] 文章中の画像を背景画像（さし絵）として表示する機能
-
