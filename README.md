@@ -7,7 +7,7 @@ Sound-novelize Web page bookmarklet.
 
 下記のリンクをブラウザのブックマークに登録してください。
 
-[YA Sound-novel化](javascript:(function(){(function(d){var s=d.createElement('script');s.src='https://raw.github.com/noriaki/ya-sound-novel/0.0.1/init.js';d.getElementsByTagName('head')[0].appendChild(s);})(document);})();)
+<p><a href="javascript:(function()%7B(function(d)%7Bvar s%3Dd.createElement(%27script%27)%3Bs.src%3D%27https://raw.github.com/noriaki/ya-sound-novel/0.0.1/init.js%27%3Bd.getElementsByTagName(%27head%27)%5B0%5D.appendChild(s)%3B%7D)(document)%3B%7D)()%3B">YA Sound-novel化</a></p>
 
 ### Usage
 
