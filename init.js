@@ -14,7 +14,7 @@
 
 // main
 (function(w,d) {
-    var VERSION = '0.0.1';
+    var VERSION = '0.0.2';
 
     var isLoadedjQuery = false;
     if(w['jQuery'] !== undefined) {
@@ -38,7 +38,7 @@
                 var c = res.content;
 
                 var next_sentence = function() {
-                    var i = 0, texts = c.asTextFragment().split(/\u3002[^\u300D]/);
+                    var i = 0, texts = c.asTextFragment().split(/\u3002/);
                     return function() { return texts[i++]; };
                 }();
 
