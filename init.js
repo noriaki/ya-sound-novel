@@ -14,14 +14,16 @@
 
 // main
 (function(w,d) {
+    var VERSION = '0.0.1';
+
     var isLoadedjQuery = false;
     if(w['jQuery'] !== undefined) {
         isLoadedjQuery = true;
         w['__jQuery'] = w['jQuery'];
     }
     $script([
-        'http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js',
-        'http://js.noriaki.me/bookmarklet/ya-sound-novel/extract-content-all.js'
+        'https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js',
+        'https://raw.github.com/noriaki/ya-sound-novel/'+VERSION+'/extract-content-all.js'
     ], function() {
         if(isLoadedjQuery) {
             var __snjQuery = jQuery.noConflict(true);
